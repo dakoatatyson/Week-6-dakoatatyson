@@ -1,0 +1,23 @@
+curl -XPUT http://localhost:9200/python-application-log -H "content-type: application/json" -d @- <<EOF
+{
+"mappings": {
+"dynamic": false,
+"properties": {
+"level": { "type": "keyword" },
+"game_id": { "type": "keyword" },
+"game_responses": { "type": "text" },
+"game_state": { "type": "keyword" },
+"choices_made": { "type": "text" },
+"start_response": { "type": "keyword" },
+"choice_1_made": { "type": "keyword" },
+"choice_2_made": { "type": "keyword" },
+"choice_3_made": { "type": "keyword" },
+"choice_4_made": { "type": "keyword" },
+"host": { "type": "keyword" },
+"@timestamp": { "type": "date" },
+"@message": { "type": "text" },
+"message": { "type": "text" }
+}
+}
+}
+EOF

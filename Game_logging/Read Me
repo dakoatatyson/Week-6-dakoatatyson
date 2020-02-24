@@ -1,0 +1,11 @@
+Questions for HW
+
+I spent about 30 -40 hours trying to figure out that we needed to change the conf file in the pipline and 10 hours on the code its self. 
+
+Using ht e logging in the python way was very straight forward.
+
+The most frustrating was deffentily the index not showing up and the application wasn't sending logs because of the conf file in the pipeline.
+
+I would like to learn how to use the visualiztion tools on Kibana.
+
+That should add the pipline conf file part, that conf file needs to be the exact same as the one in the conf folder. 
